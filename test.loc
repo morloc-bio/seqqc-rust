@@ -1,0 +1,6 @@
+--' The seqqc test suite against seqqc-rust
+module test-seqqc-rust (test)
+
+import seqqc.test (test)
+import seqqc-rust
+import parallel-rust

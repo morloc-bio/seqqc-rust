@@ -1,0 +1,11 @@
+name: seqqc-rust
+version: 0.1.0
+homepage: null
+synopsis: FastQC-style read statistics as mergeable summaries
+description: Per-position quality and base content, GC, lengths, adapter content, duplication (bottom-k sketch) and overrepresented sequences (Misra-Gries), as monoids over batches.
+category: bioinformatics
+license: MIT
+author: "Zebulun Arendsee"
+maintainer: "z@morloc.io"
+github: null
+bug-reports: null

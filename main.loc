@@ -1,0 +1,17 @@
+--' Rust implementation of the seqqc module
+module seqqc-rust (*)
+
+import seqqc
+import bio-rust
+
+record Rust => ReadQc = "BioReadQc"
+record Rust => PairQc = "BioPairQc"
+record Rust => QcReport = "BioQcReport"
+
+source Rust from "seqqc.rs"
+  ( "bioseqqc_read_qc" as readQc
+  , "bioseqqc_pair_qc" as pairQc
+  , "bioseqqc_merge_read_qc" as mergeReadQc
+  , "bioseqqc_qc_report" as qcReport
+  , "bioseqqc_fastqc_data" as fastqcData
+  )
